@@ -2,13 +2,17 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pet 4 Patas - Meu Amigo de Quatro Patas</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
   <header>
     <img src="1pets.jpg" alt="Cachorro e Gato" class="top-image">
     <h1>Pet 4 Patas</h1>
+
     <nav>
       <ul>
         <li><a href="index.html">Início</a></li>
@@ -16,7 +20,8 @@
         <li><a href="cuid.html">Cuidados</a></li>
         <li>
           <a class="whatsapp-button" href="https://wa.me/51998868995" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 5px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"
+              style="width: 18px; height: 18px; vertical-align: middle; margin-right: 5px;">
             WhatsApp
           </a>
         </li>
@@ -24,55 +29,75 @@
     </nav>
   </header>
 
-  <section class="section">
-    <h2>Sobre Nós</h2>
-    <p>
-      Na Pet 4 Patas, o amor pelos animais vem em primeiro lugar. Somos uma equipe apaixonada por pets, especializada em banho e tosa, com o compromisso de oferecer um atendimento cuidadoso, carinhoso e profissional para o seu melhor amigo.
-      Nosso espaço foi pensado para garantir conforto, segurança e bem-estar durante todo o atendimento. Utilizamos produtos de alta qualidade, técnicas atualizadas e respeitamos sempre o tempo e o comportamento de cada pet, porque entendemos que cada um é único.
-      Mais do que um serviço, acreditamos que cuidar de um pet é uma missão. Por isso, tratamos cada animalzinho com todo o carinho que ele merece — como se fosse nosso.
-    </p>
+  <main class="container">
 
-    <h2>Visão</h2>
-    <p>Ser referência em bem-estar animal na região.</p>
+    <section class="section" id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>
+        Na Pet 4 Patas, o amor pelos animais vem em primeiro lugar. Somos uma equipe apaixonada por pets,
+        especializada em banho e tosa, com o compromisso de oferecer um atendimento cuidadoso, carinhoso
+        e profissional para o seu melhor amigo.
+      </p>
 
-    <h2>Missão</h2>
-    <p>Proporcionar conforto e cuidado aos animais de estimação, promovendo saúde e felicidade.</p>
+      <p>
+        Nosso espaço foi pensado para garantir conforto, segurança e bem-estar durante todo o atendimento.
+        Utilizamos produtos de alta qualidade, técnicas atualizadas e respeitamos sempre o tempo e o
+        comportamento de cada pet, porque entendemos que cada um é único.
+      </p>
 
-    <h2>Valores</h2>
-    <p>Respeito, dedicação, responsabilidade e amor pelos animais.</p>
-  </section>
+      <p>
+        Mais do que um serviço, acreditamos que cuidar de um pet é uma missão. Por isso, tratamos cada
+        animalzinho com todo o carinho que ele merece — como se fosse nosso.
+      </p>
 
-  <section class="section" id="Contatos">
-    <h2>Fale Conosco</h2>
-    <form action="mailto:lisiane2paiva@gmail.com" method="POST" enctype="application/x-www-form-urlencoded">
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required>
+      <h3>Visão</h3>
+      <p>Ser referência em bem-estar animal na região.</p>
 
-      <label for="email">Email:</label>
-      <input type="email" id="e-mail" name="email" required>
+      <h3>Missão</h3>
+      <p>Proporcionar conforto e cuidado aos animais de estimação, promovendo saúde e felicidade.</p>
 
-      <label for="mensagem">Mensagem:</label>
-      <textarea id="mensagem" name="mensagem" required></textarea>
+      <h3>Valores</h3>
+      <p>Respeito, dedicação, responsabilidade e amor pelos animais.</p>
+    </section>
 
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+    <section class="section" id="servicos">
+      <h2>Serviços</h2>
 
-  <section class="section" id="servicos">
-    <h2>Serviços</h2>
-    <p><strong>Banho e tosa para seu amigo de quatro patas:</strong></p>
-    <ul>
-      <li>Pacote semanal: R$ 100,00</li>
-      <li>Pacote quinzenal: R$ 170,00</li>
-    </ul>
-    <p><strong>Promoção por tempo limitado:</strong> traga um amigo e o pet dele e ganhe 10% de desconto no pacote semanal.</p>
-    <p><em>Antecipe sua reserva em datas especiais e feriados.</em></p>
-    <a href="cuid.html" class="botao">Ver cuidados com seu pet</a>
-  </section>
+      <p><strong>Banho e tosa para seu amigo de quatro patas:</strong></p>
+      <ul>
+        <li>Pacote semanal: R$ 100,00</li>
+        <li>Pacote quinzenal: R$ 170,00</li>
+      </ul>
+
+      <p><strong>Promoção por tempo limitado:</strong> traga um amigo e o pet dele e ganhe 10% de desconto no pacote semanal.</p>
+      <p><em>Antecipe sua reserva em datas especiais e feriados.</em></p>
+
+      <a href="cuid.html" class="botao">Ver cuidados com seu pet</a>
+    </section>
+
+    <section class="section" id="contato">
+      <h2>Fale Conosco</h2>
+
+      <form action="mailto:lisiane2paiva@gmail.com" method="POST" enctype="application/x-www-form-urlencoded">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
 
   <footer>
-    <img src="2pata.jpg" alt="Pata" class="pata-icon">
+    <img src="2pata.jpg" alt="Ícone de pata" class="pata-icon">
     <p>&copy; 2025 Pet 4 Patas. Todos os direitos reservados.</p>
   </footer>
+
 </body>
 </html>
