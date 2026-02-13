@@ -26,10 +26,9 @@ header {
     padding: 20px;
 }
 
-header img {
-    max-width: 100%;
-    height: auto;
-}
+
+
+
 
 /* MENU */
 
@@ -85,14 +84,17 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
-/* BANNER COM MENU SOBRE A IMAGEM */
+/* HEADER / BANNER */
 .banner {
     position: relative;
     text-align: center;
+    background-color: #ffffff;
 }
 
 .banner img {
     width: 100%;
+    height: auto;
+    max-height: 550px;
     display: block;
 }
 
@@ -101,10 +103,11 @@ footer {
 
 .menu {
     position: absolute;
-    bottom: 100px; /* ajuste se quiser subir ou descer */
+    bottom: 40px; /* antes era 100 */
     left: 50%;
     transform: translateX(-50%);
 }
+
 
 .menu ul {
     list-style: none;
